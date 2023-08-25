@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Hanken+Grotesk:wght@300&family=Outfit:wght@300;400&family=PT+Sans:ital@1&family=Red+Hat+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.container{
+    height: 100vh;
+   display: grid;
+   place-content: center;
+   background-color:hsl(225, 100%, 94%);
+   text-align: center;
+}
+.slide{
+    width:90%;
+    background-color: white;
+    border-radius: 30px;
+}
+.header img{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+
+}
+.info p{
+    line-height: 25px;
+}
+.info h1{
+    font-size: 2rem;
+    font-weight: 900;
+    padding:1.5rem;
+
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2rem;
+}
+.song img{
+    padding-right: 1.5rem;
+}
+
+.song{ 
+    display: flex;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding:1rem;
+    border-radius: 20px;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    font-weight: 700;
+    
+}
+button:hover{
+    background-color: hsl(224, 23%, 55%);
+    
+}
+.btn p{
+    margin:20px;    
+}
